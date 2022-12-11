@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Hello World </title>
+</head>
+<body>
+<h1 class="login-link">Knockout Js PopUp Template</h1>
+<div id="knockout-example" data-bind="scope:'ko-script'">
+    <!-- ko template: getTemplate() --><!-- /ko -->
+</div>
+</body>
+</html>
+
+<script type="text/x-magento-init">
+    {
+        "*":{
+            "Magento_Ui/js/core/app":
+            {
+                "components":
+                {
+                    "ko-script":
+                    {
+                        "component": "DCKAP_PopUp/js/myscript"
+                    }
+                }
+            }
+        }
+    }
+</script>
